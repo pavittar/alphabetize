@@ -1,3 +1,56 @@
-ul {
-  list-style: none;
+.hidden { display: none }
+ul      { list-style: none; }
+.red    { color: red; }
+.fleft  {
+  float: left;
+  border: 2px solid #ccc;
+  margin: 0 10px;
+  padding: 5px 15px;
+  width: 175px;
+}
+
+.alphabetize-styled .alphabet {
+  cursor: pointer;
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.698);
+  font-weight: bold;
+  margin: 0 95px 5px 3px;
+  padding: 0 0.5px 0 12px;
+  text-indent: 6px;
+  width: 30px;
+}
+
+.toggle-up, .toggle-down {
+  direction: rtl;
+  display: list-item !important;
+  list-style-position: inside;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.toggle-down { list-style-image: url("../images/arrow_desc.png");}
+.toggle-up   { list-style-image: url("../images/arrow_asc.png"); }
+
+.alphabetize-styled .alphabetGroupElement li {
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+
+    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, transparent), color-stop(50%, transparent), color-stop(100%, rgba(0,0,0,0.2)));
+    background-image: -webkit-linear-gradient(left, transparent,transparent 50%,rgba(0,0,0,0.2));
+    background-image:    -moz-linear-gradient(left, transparent,transparent 50%,rgba(0,0,0,0.2));
+    background-image:      -o-linear-gradient(left, transparent,transparent 50%,rgba(0,0,0,0.2));
+    background-image:         linear-gradient(left, transparent,transparent 50%,rgba(0,0,0,0.2));
+    -webkit-background-size: 200% 100%;
+       -moz-background-size: 200% 100%;
+         -o-background-size: 200% 100%;
+            background-size: 200% 100%;
+    -webkit-transition: all 0.26s ease-out;
+       -moz-transition: all 0.26s ease-out;
+         -o-transition: all 0.26s ease-out;
+            transition: all 0.26s ease-out;
+}
+.alphabetize-styled .alphabetGroupElement li:hover {
+  background-position: 100% 100%;
+  padding-left: 5px;
 }

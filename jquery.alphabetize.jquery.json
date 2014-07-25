@@ -1,0 +1,29 @@
+{
+    "name": "jquery.alphabetize",
+    "title": "jQuery Alphabetize",
+    "description": "This tiny jQuery library arrange text in alphabetical order.",
+    "keywords": [
+        "alphabetize",
+        "menu",
+        "arrange",
+        "order",
+        "ui",
+        "jquery"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Pavittar Gill",
+        "url": "http://ca.linkedin.com/pub/pavittar-gill/54/b33/41b"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/pavittar/alphabetize/blob/master/LICENCE"
+        }
+    ],
+    "homepage": "http://pavittar.github.io/alphabetize/",
+    "demo": "http://pavittar.github.io/alphabetize/",
+    "dependencies": {
+        "jquery": ">=1.8.0"
+    }
+}
